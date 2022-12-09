@@ -11,19 +11,14 @@
     border-radius: 2px;    
     background-color: white;
 }
-.__index____Body__Header__nav__ul{
-    list-style: none;
-    margin-left: -30px;
-}
 .__index____Body__Header{
     padding: 10px;
     background-color: var(--colorAmarillo);
 }
 .__Index__Body_Header__img--Isologotipo{
-    margin-top: 15px;
-    margin-left: 10px;
+    margin: 20px;
     display: block;
-    width : 20%
+    width : 120px;
 }
 .__index____Body__Header__Div--Buscador{
     display: inline;
@@ -38,6 +33,22 @@
 }
 .__index____Body__Header__P--Cuotas{
     text-align: center
+}
+.__index____Body__Header__nav__ul{
+    list-style: none;
+    margin-left: -30px;
+}
+.__index____Body__Header__Div--Hamburguesa{
+    text-align: center;
+    display: block;
+    width: 14px;
+    height: 14px;
+    color: var(--colorGrisClaro);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3.5px;
+    border-radius: 2px;    
+    background-color: var(--colorAzul);
 }
 .__Index__Body__Main__Section__img--Banner{
     width : 100%
@@ -57,4 +68,19 @@
 }
 .__Index__Body__Main__Section__Article__H3--Descripcion{
     font-size: 16px;
+}
+
+.__index____Body__footer__Div{
+    text-align: center;
+    color: var(--colorAzul);
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto 
+}
+.__Index__Main__Footer__Article{
+    text-align: center;
+}
+.__Index__Main__Footer__Article--Copyright{
+    font-size: 10px;
+    text-align: left
 }
